@@ -5,6 +5,7 @@ public class AccountType implements Account {
 	double INITIALBALANCE = 1000;
 	double totalBalance;
 	final double RATEOFINTEREST=5;
+	double checkBalance;
 	@Override
 	public void deposite(double amount) {
 		// TODO Auto-generated method stub

@@ -10,7 +10,7 @@ public class ProductTest {
 	  Product pro4 = new Product();
 	  Product pro5 = new Product();
 	  int[] price= new int[][pro1.getPrice() , pro2.getPrice(),pro3.getPrice(),pro4.getPrice(),pro5.getPrice() ]
-	  getPrice=0;
+			  getPrice=0;
 	  int i;
 	  for(i=0;i<=5;i++)
 	  if(pro1.getPrice()>25000) {
